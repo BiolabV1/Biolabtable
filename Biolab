@@ -179,16 +179,18 @@ getgenv().Biolab = {
 		    ['[TacticalShotgun]'] = 0,
 	},
 
-    ['Speed Modifications'] = {
-		['Enabled'] = false,
-		    ['Normal'] = 100,
-		    ['Reloading'] = 25,
-		    ['Shooting'] = 25,
-		    ['LowHealth'] = 25,
-		    ['Crouching'] = 25,
-		    ['Knife'] = 25,
-            ['Food'] = 25,    
-	},
+    ['Movement Modifications'] = {
+        ['Speed Modifier'] = {
+            ['Enabled'] = false,
+            ['Normal'] = 100,
+            ['Reloading'] = 25,
+            ['Shooting'] = 25,
+            ['LowHealth'] = 25,
+            ['Crouching'] = 25,
+            ['Knife'] = 25,
+            ['Food'] = 25,
+        }
+    },
 
     ['Skin Changer'] = {
         ['Enable'] = false,
