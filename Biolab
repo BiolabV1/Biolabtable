@@ -1,15 +1,17 @@
 getgenv().Biolab = {
     ["License Key"] = "",
 
+    ["Version"] = "V1.2", -- Do Not Touch
+
     ['Keybind'] = "C",
 
     ['Silent'] = {
         ['Enabled'] = false,
         
-        ['Mode'] = "Current Target",
+        ['Mode'] = "Current Target", -- Current Target or FOV
 
         ['Nearest Scale'] = {
-            ['Hit Target'] = 'Nearest Point',
+            ['Hit Target'] = 'Nearest Point', -- Nearest Point or Nearest Part or any body part
             ['Nearest Scale'] = 100
         },
 
@@ -66,9 +68,9 @@ getgenv().Biolab = {
     ['Triggerbot'] = {
         ['Enabled'] = false,
 
-        ['Target Mode'] = "Current Target",
+        ['Target Mode'] = "Current Target", -- Current Target or Hitbox
 
-        ['Active Mode'] = "Toggle",
+        ['Active Mode'] = "Toggle", -- Toggle or Hold or always
 
         ['Delay'] = {
             ['Enable'] = false,
@@ -107,7 +109,7 @@ getgenv().Biolab = {
     ['Camlock'] = {
         ['Enabled'] = false,
 
-        ['Mode'] = "FOV",
+        ['Mode'] = "FOV", -- Current Target or FOV
 
         ['Smoothness'] = {
             ['X'] = 20,
@@ -116,7 +118,7 @@ getgenv().Biolab = {
         },
 
         ['Nearest Scale'] = {
-            ['Hit Target'] = 'Nearest Point',
+            ['Hit Target'] = 'Nearest Point', -- Nearest Point or Nearest Part or any body part
             ['Nearest Scale'] = 100
         },
 
