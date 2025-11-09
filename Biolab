@@ -1,0 +1,311 @@
+getgenv().Biolab = {
+    ["License Key"] = "",
+
+    ['Keybind'] = "C",
+
+    ['Silent'] = {
+        ['Enabled'] = false,
+        
+        ['Mode'] = "Current Target",
+
+        ['Nearest Scale'] = {
+            ['Hit Target'] = 'Nearest Point',
+            ['Nearest Scale'] = 100
+        },
+
+        ['Gun Settings'] = {
+            ['Selected Guns'] = {'[Double-Barrel SG]', '[Revolver]', '[TacticalShotgun]'},
+            ['Checks'] = {"Knocked", "Crew", "Team", "Dead", "Grabbed"},
+            ['Hit Chance'] = 100,
+        },
+
+        ['Prediction'] = {
+            ['X'] = 0.0,
+            ['Y'] = 0.0,
+            ['Z'] = 0.0
+        },
+
+        ['Fov'] = {
+            ['X'] = 6,
+            ['Y'] = 6,
+            ['Z'] = 6,
+            ['Fov Type'] = {
+                ['Fov Mode'] = "Box",
+                ['Show Fov'] = false,
+            }
+        },
+
+        ['Client Bullet Redirection'] = {
+            ['Enabled'] = false,
+
+            ['[Double-Barrel SG]'] = { 
+                ['X'] = 0.038,
+                ['Y'] = 0.032, 
+                ['Z'] = 0.038 
+            },
+            ['[TacticalShotgun]'] = { 
+                ['X'] = 0.038, 
+                ['Y'] = 0.032, 
+                ['Z'] = 0.038 
+            },
+            ['[Revolver]'] = { 
+                ['X'] = 0.038, 
+                ['Y'] = 0.032, 
+                ['Z'] = 0.038 
+            }
+        },
+
+        ['Tracer'] = {
+            ['Enabled'] = false,
+            ['ColorInFOV'] = Color3.fromRGB(0, 255, 0),
+            ['ColorOutFOV'] = Color3.fromRGB(255, 0, 0),
+            ['Thickness'] = 1.8
+        }
+    },
+
+    ['Triggerbot'] = {
+        ['Enabled'] = false,
+
+        ['Target Mode'] = "Current Target",
+
+        ['Active Mode'] = "Toggle",
+
+        ['Delay'] = {
+            ['Enable'] = false,
+            ['Shoot Delay'] = 0,
+        },
+
+        ['Prediction'] = {
+            ['X'] = 0,
+            ['Y'] = 0,
+            ['Z'] = 0
+        },
+        
+        ['Gun Settings'] = {
+            ['Selected Guns'] = {'[Double-Barrel SG]', '[Revolver]', '[TacticalShotgun]'},
+            ['Checks'] = {"Knocked"},
+        },
+
+        ['Fov'] = {
+            ['X'] = 6,
+            ['Y'] = 6,
+            ['Z'] = 6,
+            ['Fov Type'] = {
+                ['Fov Mode'] = "Box",
+                ['Show Fov'] = false,
+            }
+        },
+        
+        ['Tracer'] = {
+            ['Enabled'] = false,
+            ['ColorInFOV'] = Color3.fromRGB(0, 255, 0),
+            ['ColorOutFOV'] = Color3.fromRGB(255, 0, 0),
+            ['Thickness'] = 1.8
+        }
+    },
+
+    ['Camlock'] = {
+        ['Enabled'] = false,
+
+        ['Mode'] = "FOV",
+
+        ['Smoothness'] = {
+            ['X'] = 20,
+            ['Y'] = 20,
+            ['Z'] = 20,
+        },
+
+        ['Nearest Scale'] = {
+            ['Hit Target'] = 'Nearest Point',
+            ['Nearest Scale'] = 100
+        },
+
+        ['Gun Settings'] = {
+            ['Selected Guns'] = {'[Double-Barrel SG]', '[Revolver]', '[TacticalShotgun]'},
+            ['Aimbot Checks'] = {"Knocked"},
+        },
+
+        ['Camera Mode'] = {
+            ['First Person'] = false,
+            ['Third Person'] = false,
+            ['Right Click'] = false,
+            ['ShiftLock'] = false
+        },
+
+        ['Prediction'] = {
+            ['X'] = 0,
+            ['Y'] = 0,
+            ['Z'] = 0
+        },
+
+        ['Fov'] = {
+            ['X'] = 6,
+            ['Y'] = 6,
+            ['Z'] = 6,
+            ['Fov Type'] = {
+                ['Fov Mode'] = "Box",
+                ['Show Fov'] = false
+            },
+        },
+
+        ['Tracer'] = {
+            ['Enabled'] = false,
+            ['ColorInFOV'] = Color3.fromRGB(0, 255, 0),
+            ['ColorOutFOV'] = Color3.fromRGB(255, 0, 0),
+            ['Thickness'] = 1.8
+        }
+    },
+
+    ['Cooldown'] = {
+        ['Enabled'] = true,
+		    ['[Double-Barrel SG]'] = 1,
+		    ['[Revolver]'] = 0,
+		    ['[TacticalShotgun]'] = 1,
+    },
+
+    ['Shooting Modifications'] = {
+        ['Enabled'] = false,
+		    ['[Double-Barrel SG]'] = 1,
+		    ['[Revolver]'] = 0,
+		    ['[TacticalShotgun]'] = 1,
+    },
+
+    ['Spread Modifications'] = {
+		['Enabled'] = false,
+		    ['[Double-Barrel SG]'] = 1,
+		    ['[Revolver]'] = 1,
+		    ['[TacticalShotgun]'] = 0,
+	},
+
+    ['Speed Modifications'] = {
+		['Enabled'] = false,
+		    ['Normal'] = 100,
+		    ['Reloading'] = 25,
+		    ['Shooting'] = 25,
+		    ['LowHealth'] = 25,
+		    ['Crouching'] = 25,
+		    ['Knife'] = 25,
+            ['Food'] = 25,    
+	},
+
+    ['Skin Changer'] = {
+        ['Enable'] = false,
+        ['Da Hood Guns'] = {
+            ["[Double-Barrel SG]"] = "Galaxy",
+            ["[Revolver]"] = "Inferno",
+            ["[TacticalShotgun]"] = "Galaxy",
+            ["[Silencer]"] = "Galaxy",
+            ["[Knife]"] = "Tanto"
+        },
+    },
+
+    ['DoubleTap'] = {
+        ['Enabled'] = false,    
+            ['Cooldown'] = 0.12,
+            ['AllowedGuns'] = { "[Double-Barrel SG]"}   
+    },
+
+    ['AimView'] = {
+        ["Enabled"] = false,
+        ["Color"] = Color3.fromRGB(255, 0, 0)
+    }, 
+
+    ['FakeSpike'] = {
+        ['Enabled'] = false,
+        ['Bind'] = "K",
+        ['Duration'] = 2
+    },
+
+    ["Misc"] = {
+        ["Specific Misc"] = {
+            ["NoJumpCoolDown"] = false,
+            ["WallBang"] = false,
+            ["Noseats"] = false,
+            ['No Tripping'] = false 
+        }
+    },
+
+    ['Global'] = {
+        ["Enable"] = false,
+        ["color configuration"] = 11
+    },
+
+    ['Inventory Sorter'] = {
+        ['Enabled'] = false,
+        ['Sort Food'] = false,
+        ['Bind'] = 'V',
+
+        ['First Slot'] = { 
+            ['Name'] = '[Double-Barrel SG]', 
+        },
+
+        ['Second Slot'] = { 
+            ['Name'] = '[Revolver]', 
+        },
+
+        ['Third Slot'] = { 
+            ['Name'] = '[TacticalShotgun]', 
+        },
+
+        ['Fourth Slot'] = { 
+            ['Name'] = '[Knife]', 
+        }
+    },
+
+    ['HitboxExpander'] = {
+        ['Enabled'] = false,
+        ['Visualize'] = false,
+
+        ['[Double-Barrel SG]'] = { 
+            ['X'] = 6,
+            ['Y'] = 6,
+            ['Z'] = 6,
+        },
+
+        ['[Revolver]'] = { 
+            ['X'] = 6,
+            ['Y'] = 6,
+            ['Z'] = 6,
+        },
+
+        ['[TacticalShotgun]'] = { 
+            ['X'] = 6,
+            ['Y'] = 6,
+            ['Z'] = 6,
+        },
+
+        ['[Silencer]'] = { 
+            ['X'] = 6,
+            ['Y'] = 6,
+            ['Z'] = 6,
+        },
+    },
+
+    ["ESP"] = {
+        ["Enabled"] = false,
+
+        ["ESP Fets"] = {
+            ["Name"] = {
+                ["Visible"] = false,
+                ["Size"] = 13,
+                ["Color"] = Color3.fromRGB(255, 255, 255),
+                ["Transparency"] = 0,
+            },
+
+            ["Distance"] = {
+                ["Visible"] = false,
+                ["Size"] = 12,
+                ["Color"] = Color3.fromRGB(0, 255, 255),
+                ["Transparency"] = 0,
+            },
+
+            ["HealthBar"] = {
+                ["Visible"] = false,
+                ["Size"] = 12,
+                ["Color"] = Color3.fromRGB(0, 255, 0), 
+                ["Transparency"] = 0.2,
+            },
+        },
+    },
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/dbdf9cffec7f47db785de11ff71886cd.lua"))()
