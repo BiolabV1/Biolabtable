@@ -233,6 +233,7 @@ getgenv().Biolab = {
             ["WallBang"] = false,
             ["Noseats"] = false,
             ['No Tripping'] = false 
+            ["Animation pack"] = false,
         }
     },
 
