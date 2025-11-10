@@ -214,7 +214,7 @@ getgenv().Biolab = {
         ["Walking"] = "Zombie",  
         ["Jumping"] = "Ninja",   
         ["Falling"] = "Ninja"    
-    }
+    },
 
     ['AimView'] = {
         ["Enabled"] = false,
